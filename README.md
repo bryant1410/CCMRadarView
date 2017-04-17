@@ -29,15 +29,15 @@ In the storyboard draw a view to your controller and assign it the CCMRadarView 
 
 To start and stop animations in the radar, you should call the `startAnimation()` or the `stopAnimation()` methods. Don't forget to import your framework first.
 
-###Importing Framework
+### Importing Framework
 
-####Swift
+#### Swift
 
 If you added the CCMRadarView.swift file to your project there is no need to import.
 
 If you are using cocoapods use `import CCMRadarView`
 
-####Objective-C
+#### Objective-C
 
 If you added the CCMRadarView.swift file to your project you will need to import the header with the following format `#import "YourProjectName-Swift.h"`. For more information on this follow the [Importing Swift into Objective-C](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/BuildingCocoaApps/MixandMatch.html) guide.
 
